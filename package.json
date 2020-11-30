@@ -1,0 +1,27 @@
+{
+  "name": "rescript-discord",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w"
+  },
+  "keywords": [
+    "rescript",
+    "discord",
+    "bot",
+    "client",
+    "node"
+  ],
+  "author": {
+    "name": "Kevin Fisher",
+    "email": "kfish610@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rescript-websocket": "^1.1.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.3.3"
+  }
+}
